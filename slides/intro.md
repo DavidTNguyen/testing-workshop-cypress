@@ -48,7 +48,7 @@ npm install
 
 ## Repo organization
 
-- `/todomvc` is a web application we are going to test
+- `/redux-todomvc` is a web application we are going to test
 - all tests are in `cypress/integration` folder
   - there are subfolders for exercises
     - `01-basic`
@@ -63,11 +63,11 @@ We are going to keep the app running, while switching from spec to spec for each
 
 +++
 
-## `todomvc`
+## `redux-todomvc`
 
 Let us look at the application.
 
-- `cd todomvc`
+- `cd redux-todomvc`
 - `npm start`
 - `open localhost:3000`
 
@@ -78,12 +78,6 @@ Let us look at the application.
 It is a regular TodoMVC application.
 
 ![TodoMVC](todomvc/img/todomvc.png)
-
-+++
-
-If you have Vue DevTools plugin
-
-![With Vue DevTools](todomvc/img/vue-devtools.png)
 
 +++
 
@@ -116,8 +110,3 @@ Note:
 The students should open DevTools and look at XHR requests that go between the web application and the server. Also the students should find `todomvc/data.json` file with saved items.
 
 +++
-
-![App organization](todomvc/img/vue-vuex-rest.png)
-
-Note:
-This app has been coded and described in this blog post [https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/](https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/)
