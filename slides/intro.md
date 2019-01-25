@@ -1,8 +1,8 @@
-# Gleb Bahmutov, PhD
+# David Nguyen,
 
-- VP of Engineering, Cypress
-- gleb (at) cypress.io
-- [@bahmutov](https://twitter.com/bahmutov)
+- Lead Engineer, Target Corp
+- David.T.Nguyen@Target.com
+- [@vietroadie](https://twitter.com/vietroadie)
 
 +++
 

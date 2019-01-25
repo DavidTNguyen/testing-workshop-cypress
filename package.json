@@ -27,7 +27,7 @@
     "testing",
     "workshop"
   ],
-  "author": "Gleb Bahmutov <gleb@cypress.io>",
+  "author": "David T Nguyen <david.t.nguyen@target.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cypress-io/testing-workshop-cypress/issues"
