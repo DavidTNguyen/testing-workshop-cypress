@@ -16,10 +16,10 @@ cd testing-workshop-cypress
 npm install
 ```
 
-If necessary, install dependencies inside TodoMVC folder
+If necessary, install dependencies inside redux-todomvc folder
 
 ```bash
-cd todomvc
+cd redux-todomvc
 npm install
 ```
 
@@ -28,7 +28,7 @@ npm install
 You can test the installation by starting TodoMVC in the first terminal window
 
 ```shell
-cd todomvc
+cd redux-todomvc
 npm start
 ```
 
@@ -62,13 +62,13 @@ $ npm run cy:open
 
 ## Application 💾
 
-[Vue.js](https://vuejs.org/) + [Vuex](https://vuex.vuejs.org/) + REST server application that we are going to test is in the folder `todomvc`. This application and its full testing is described in [this blog post](https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/). The application should run fine without network access.
+[ReactJS](https://reactjs.org/) + [Redux](https://redux.js.org/) + REST server application that we are going to test is in the folder `todomvc`. This application and its full testing is described in [this site](http://todomvc.com/examples/react/#/). The application should run fine without network access.
 
 ## Slides 🖥
 
 [https://gitpitch.com/cypress-io/testing-workshop-cypress][presentation] with the starting file in [PITCHME.md](PITCHME.md) presented using [GitPitch](https://gitpitch.com/). The pitch file includes files from the [slides](slides) folder. Students should open the [presentation slides][presentation] and follow along.
 
-[presentation]: https://gitpitch.com/cypress-io/testing-workshop-cypress
+[presentation]: https://gitpitch.com/davidtnguyen/testing-workshop-cypress
 
 ## Content 🗂
 
@@ -87,10 +87,9 @@ $ npm run cy:open
 | The end                                | -                                                                                        | [end.md](slides/end.md)                                       |
 
 ## For speakers 🎙
+The content has been curated to run in a 3 hours workshop. Everyone worked or coded for the most part, except for CI and the Cypress Dashboard sections, where the usage was shown via slides and actual sites.
 
-During a testing workshop in Boston, [Gleb Bahmutov](https://github.com/bahmutov) covered this material in 3 hours (with a 25 minute lunch break). Everyone worked or coded for the most part, except for CI and the Cypress Dashboard sections, where the usage was shown via slides and actual sites.
-
-During the workshop, keep the `todomvc` app running in one shell, while each section `01-basic`, `02-...`, `03-...` etc. has its own Cypress and specs subfolders `cypress/integration/...`. Usually a spec has several tests with placeholder comments. The workshop attendees are expected to make the tests pass using the knowledge from the slides and hints (and [Cypress documentation](https://docs.cypress.io/)). Note that most folders have a prepared `spec.js` file and an `answer.js` file. The `answer.js` file is ignored by Cypress using a setting in `cypress.json`.
+During the workshop, keep the `redux-todomvc` app running in one shell, while each section `01-basic`, `02-...`, `03-...` etc. has its own Cypress and specs subfolders `cypress/integration/...`. Usually a spec has several tests with placeholder comments. The workshop attendees are expected to make the tests pass using the knowledge from the slides and hints (and [Cypress documentation](https://docs.cypress.io/)). Note that most folders have a prepared `spec.js` file and an `answer.js` file. The `answer.js` file is ignored by Cypress using a setting in `cypress.json`.
 
 The only exception is the folder `00-start`. This is a folder for students to see how Cypress scaffolds example specs when you open Cypress for the very first time. In this folder students should execute...
 
