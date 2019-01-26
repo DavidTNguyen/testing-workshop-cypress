@@ -95,7 +95,7 @@ Look at `redux-todomvc/index.js`
 
 Look at `redux-todomvc/app.js`
 
-![Application](redux-todomvc/img/app.png)
+![Application](redux-todomvc/img/appjs.png)
 
 +++
 
