@@ -27,12 +27,12 @@ jobs:
       # https://docs.npmjs.com/cli/ci
       - run:
           name: Install dependencies
-          command: npm ci; cd todomvc; npm ci
+          command: npm ci; cd redux-todomvc; npm ci
 
       - run:
           name: Start TodoMVC server
           command: npm start
-          working_directory: todomvc
+          working_directory: redux-todomvc
           background: true
 
       - save_cache:
@@ -69,7 +69,7 @@ jobs:
       # Install NPM dependencies quickly
       - run:
           name: Install dependencies
-          command: npm ci; cd todomvc; npm ci
+          command: npm ci; cd redux-todomvc; npm ci
 
       - save_cache:
           paths:

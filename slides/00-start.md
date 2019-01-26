@@ -68,7 +68,7 @@ it('loads', () => {
 
 - what does Cypress do?
 - what happens when the server is down?
-  - stop the application server running in folder `todomvc`
+  - stop the application server running in folder `redux-todomvc`
   - reload the tests
 
 +++

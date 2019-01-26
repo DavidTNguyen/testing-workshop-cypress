@@ -10,7 +10,7 @@
 
 As long as ⏳ permits
 
-- example TodoMVC
+- example TodoMVC (in ReactJS)
   * web app, data store, REST calls
 - basic page load test
 - selector playground
@@ -75,7 +75,7 @@ Let us look at the application.
 
 +++
 
-It is a regular TodoMVC application.
+It is a regular React TodoMVC application.
 
 ![TodoMVC](todomvc/img/todomvc.png)
 

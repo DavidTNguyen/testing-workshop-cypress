@@ -25,7 +25,7 @@ npm install
 
 ### Quick check ✅
 
-You can test the installation by starting TodoMVC in the first terminal window
+You can test the installation by starting React TodoMVC in the first terminal window
 
 ```shell
 cd redux-todomvc
