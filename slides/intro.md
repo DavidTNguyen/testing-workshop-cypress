@@ -77,7 +77,7 @@ Let us look at the application.
 
 It is a regular React TodoMVC application.
 
-![TodoMVC](redux-todomvc/img/todomvc.png)
+![TodoMVC](redux-todomvc/img/app.png)
 
 +++
 
