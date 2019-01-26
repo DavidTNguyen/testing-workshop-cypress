@@ -77,7 +77,7 @@ Let us look at the application.
 
 It is a regular React TodoMVC application.
 
-![TodoMVC](todomvc/img/todomvc.png)
+![TodoMVC](redux-todomvc/img/todomvc.png)
 
 +++
 
@@ -87,26 +87,26 @@ Look at XHR when using the app
 
 +++
 
-Look at `todomvc/index.html`
+Look at `redux-todomvc/index.js`
 
-![DOM](todomvc/img/DOM.png)
+![DOM](todomvc/img/index.png)
 
 +++
 
-Look at `todomvc/app.js`
+Look at `redux-todomvc/app.js`
 
-![Application](todomvc/img/app.png)
+![Application](redux-todomvc/img/app.png)
 
 +++
 
 ## Questions
 
 - what happens when you add a new Todo item?
-- how does it get to the server?
-- where does the server save it?
+- how does it get to the redux store?
+- where does the redux store save it?
 - what happens on start up?
 
 Note:
-The students should open DevTools and look at XHR requests that go between the web application and the server. Also the students should find `todomvc/data.json` file with saved items.
+The students should open **React & Redux** DevTools and look at **ACTIONS** that **DISPATCH** between the application and the store. Also the students should find the new items being saved in the store.
 
 +++
