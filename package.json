@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec 'cypress/integration/07-ci/*'",
-    "posttest": "cd redux-todomvc; npm run reset:db",
+    "posttest": "cd react-todomvc; npm run reset:db",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "start": "cd redux-todomvc; npm start -- --quiet",
+    "start": "cd react-todomvc; npm start -- --quiet",
     "ci": "start-test 3000",
-    "postinstall": "cd redux-todomvc; npm install",
-    "reset": "cd redux-todomvc; npm run reset",
+    "postinstall": "cd react-todomvc; npm install",
+    "reset": "cd react-todomvc; npm run reset",
     "format": "prettier-standard 'cypress/**/*.js'",
     "lint": "standard 'cypress/**/*.js'"
   },
