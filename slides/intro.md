@@ -89,7 +89,7 @@ Look at XHR when using the app
 
 Look at `redux-todomvc/index.js`
 
-![DOM](todomvc/img/index.png)
+![DOM](redux-todomvc/img/index.png)
 
 +++
 
