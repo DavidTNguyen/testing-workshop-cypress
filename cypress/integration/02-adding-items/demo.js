@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 beforeEach(() => {
-  cy.request('POST', '/reset', {
-    todos: []
-  })
+  // cy.request('POST', '/reset', {
+  //   todos: []
+  // })
   cy.visit('localhost:3000')
 })
 

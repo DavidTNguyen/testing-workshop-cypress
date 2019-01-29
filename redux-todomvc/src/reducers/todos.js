@@ -7,13 +7,8 @@ import {
   CLEAR_COMPLETED
 } from '../constants/ActionTypes'
 
-const initialState = [
-  {
-    text: 'Use Redux',
-    completed: false,
-    id: 0
-  }
-]
+// start empty 0️⃣
+const initialState = []
 
 export default function todos(state = initialState, action) {
   switch (action.type) {
