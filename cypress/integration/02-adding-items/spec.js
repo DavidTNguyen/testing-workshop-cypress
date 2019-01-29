@@ -37,4 +37,4 @@ it('can mark items as completed', () => {
 })
 
 // what a challenge?
-// test more UI at http://todomvc.com/examples/vue/
+// test more UI at http://todomvc.com/examples/react/#/
