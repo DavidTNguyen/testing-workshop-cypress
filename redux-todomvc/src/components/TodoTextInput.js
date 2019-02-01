@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-
+import idGenerator from 'react-id-generator'
 export default class TodoTextInput extends Component {
+  constructor(props) {
+    super(props);
+    this.htmlId = idGenerator();
+  }
+
   static propTypes = {
     onSave: PropTypes.func.isRequired,
     text: PropTypes.string,
@@ -37,7 +42,10 @@ export default class TodoTextInput extends Component {
 
   render() {
     return (
-      <input className={
+      <input
+        data-cy="input"
+        id={this.htmlId}
+        className={
         classnames({
           edit: this.props.editing,
           'new-todo': this.props.newTodo

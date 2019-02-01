@@ -34,17 +34,20 @@ export default class TodoItem extends Component {
     let element
     if (this.state.editing) {
       element = (
-        <TodoTextInput text={todo.text}
-                       editing={this.state.editing}
-                       onSave={(text) => this.handleSave(todo.id, text)} />
+        <TodoTextInput          
+          text={todo.text}
+          editing={this.state.editing}
+          onSave={(text) => this.handleSave(todo.id, text)} />
       )
     } else {
       element = (
         <div className="view">
-          <input className="toggle"
-                 type="checkbox"
-                 checked={todo.completed}
-                 onChange={() => completeTodo(todo.id)} />
+          <input
+            data-cy='item'
+            className="toggle"
+            type="checkbox"
+            checked={todo.completed}
+            onChange={() => completeTodo(todo.id)} />
           <label onDoubleClick={this.handleDoubleClick}>
             {todo.text}
           </label>
