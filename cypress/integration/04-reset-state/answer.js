@@ -1,8 +1,6 @@
 /// <reference types="cypress" />
 beforeEach(() => {
-  cy.request('POST', '/reset', {
-    todos: []
-  })
+  cy.clearLocalStorage()
 })
 beforeEach(() => {
   cy.visit('/')
@@ -20,5 +18,5 @@ const addItem = text => {
 it('adds two items', () => {
   addItem('first item')
   addItem('second item')
-  cy.get('li.todo').should('have.length', 2)
+  cy.get('[data-cy="item"]').should('have.length', 2)
 })
