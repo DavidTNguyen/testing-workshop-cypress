@@ -59,7 +59,7 @@ it('loads', () => {
 
 +++
 
-- make sure you have started Redux-TodoMVC in another terminal with `npm start`
+- make sure you have started react-todomvc in another terminal with `npm run start`
 - click on "spec.js" in Cypress GUI
 
 +++
@@ -68,7 +68,7 @@ it('loads', () => {
 
 - what does Cypress do?
 - what happens when the server is down?
-  - stop the application server running in folder `redux-todomvc`
+  - stop the application server running in folder `react-todomvc`
   - reload the tests
 
 +++

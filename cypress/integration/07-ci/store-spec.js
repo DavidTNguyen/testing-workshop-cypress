@@ -12,8 +12,8 @@ import {
   visit
 } from '../../support/utils'
 
-// testing the central Vuex data store
-describe('UI to Vuex store', () => {
+// testing the central data store
+describe('UI to Data Store', () => {
   beforeEach(resetDatabase)
   beforeEach(() => visit())
 
@@ -108,7 +108,7 @@ describe('UI to Vuex store', () => {
   })
 })
 
-describe('Vuex store', () => {
+describe('data store', () => {
   beforeEach(resetDatabase)
   beforeEach(() => visit())
   beforeEach(stubMathRandom)
