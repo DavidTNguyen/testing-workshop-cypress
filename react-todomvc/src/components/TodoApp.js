@@ -6,7 +6,6 @@ import Footer from './Footer'
 import {saveTodo, loadTodos, destroyTodo, updateTodo} from '../lib/service'
 import {filterTodos} from '../lib/utils'
 
-
 export default class TodoApp extends Component {
   constructor(props) {
     super(props)
