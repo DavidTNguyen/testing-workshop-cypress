@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 beforeEach(() => {
+  // ❓ IS THIS THE CORRECT WAY ❓
   cy.clearLocalStorage()
 })
 beforeEach(() => {
@@ -18,5 +19,6 @@ const addItem = text => {
 it('adds two items', () => {
   addItem('first item')
   addItem('second item')
+  // ❓ IS THERE A BETTER SELECTOR ❓
   cy.get('li.todo').should('have.length', 2)
 })

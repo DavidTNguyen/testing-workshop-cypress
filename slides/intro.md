@@ -48,7 +48,7 @@ npm install
 
 ## Repo organization
 
-- `/redux-todomvc` is a web application we are going to test
+- `/react-todomvc` is a web application we are going to test
 - all tests are in `cypress/integration` folder
   - there are subfolders for exercises
     - `01-basic`
@@ -63,12 +63,12 @@ We are going to keep the app running, while switching from spec to spec for each
 
 +++
 
-## `redux-todomvc`
+## `react-todomvc`
 
 Let us look at the application.
 
-- `cd redux-todomvc`
-- `npm start`
+- `cd react-todomvc`
+- `npm run start`
 - `open localhost:3000`
 
 **important** keep application running through the entire workshop!
@@ -77,7 +77,7 @@ Let us look at the application.
 
 It is a regular React TodoMVC application.
 
-![TodoMVC](redux-todomvc/img/app.png)
+![TodoMVC](img/app.gif)
 
 +++
 
