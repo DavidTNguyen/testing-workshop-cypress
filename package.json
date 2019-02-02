@@ -11,7 +11,7 @@
     "start": "cd redux-todomvc; npm start -- --quiet",
     "ci": "start-test 3000",
     "postinstall": "cd redux-todomvc; npm install",
-    "reset": "cd redux-todomvc; npm run reset",
+    "reset": "cd react-todomvc; npm run reset",
     "format": "prettier-standard 'cypress/**/*.js'",
     "lint": "standard 'cypress/**/*.js'"
   },
