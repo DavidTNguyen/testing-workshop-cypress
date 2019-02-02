@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 // @ts-check
 it('loads', () => {
-  // application should be running at port 3000
+  // application should be running at what port?
   cy.visit('localhost:3000')
 
   // this assertion fails on purpose
