@@ -110,6 +110,12 @@ The check works really well in VSCode editor. I am not sure how well other edito
 
 +++
 
+If we add `@ts-check` comment, VSCode is complaining about unknown variable cy.
+
+[ts-check](https://glebbahmutov.com/blog/images/ts-cypress/ts-check.png)
+
++++
+
 ## Docs
 
 Your best friend is [https://docs.cypress.io/](https://docs.cypress.io/)
