@@ -67,7 +67,7 @@ export default class TodoApp extends Component {
     const remaining = this.state.todos.filter(t => !t.isComplete).length
     return (
       <Router>
-        <div>
+        <div className="todoapp">
           <header className="header">
             <h1>todos</h1>
             {this.state.error ? <span className='error'>Oh no!</span> : null}
