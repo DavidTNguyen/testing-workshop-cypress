@@ -1,10 +1,13 @@
 /// <reference types="cypress" />
 beforeEach(() => {
-  cy.clearLocalStorage()
+  // 🚀 this is possible only with this package installed as middleware
+  // ☘️ https://github.com/bahmutov/json-server-reset
+  cy.request('POST', '/reset', {
+    todos: []
+  })
+  cy.visit('localhost:3000')
 })
-beforeEach(() => {
-  cy.visit('/')
-})
+
 it('loads', () => {
   cy.contains('h1', 'todos')
 })

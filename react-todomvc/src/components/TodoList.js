@@ -1,7 +1,7 @@
 import React from 'react'
 
 const TodoItem = props =>
-  <li className={props.isComplete ? "completed" : null}>
+  <li className={props.isComplete ? "completed" : null} data-cy="item">
     <div className="view">
       <input className="toggle" type="checkbox"
         checked={props.isComplete}
