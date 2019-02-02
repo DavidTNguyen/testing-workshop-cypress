@@ -59,7 +59,7 @@ it('loads', () => {
 
 +++
 
-- make sure you have started TodoMVC in another terminal with `npm start`
+- make sure you have started Redux-TodoMVC in another terminal with `npm start`
 - click on "spec.js" in Cypress GUI
 
 +++
@@ -112,7 +112,7 @@ The check works really well in VSCode editor. I am not sure how well other edito
 
 If we add `@ts-check` comment, VSCode is complaining about unknown variable cy.
 
-[ts-check](https://glebbahmutov.com/blog/images/ts-cypress/ts-check.png)
+![ts-check](img/ts-check.png)
 
 +++
 
