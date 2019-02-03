@@ -33,6 +33,23 @@ Please: if you have experience with Cypress.io, help others during the workshop 
 
 ## Requirements
 
+Set up in your Dev Environment - Preferences / Settings / User Settings and add the json.schemas property.
+
+```json
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "cypress.json"
+      ],
+      "url": "https://on.cypress.io/cypress.schema.json"
+    }
+  ]
+}
+```
+
++++
+
 You will need:
 
 - `git` to clone this repo
