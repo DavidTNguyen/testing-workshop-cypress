@@ -33,7 +33,7 @@ Please: if you have experience with Cypress.io, help others during the workshop 
 
 ## Requirements
 
-Set up in your Dev Environment - Preferences / Settings / User Settings and add the json.schemas property.
+Set up in your Dev Environment (VS Code) - _Preferences > Settings > User Settings_ and add the json.schemas property.
 
 ```json
 {
