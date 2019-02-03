@@ -1,22 +1,5 @@
 ## New projects
 
-Set up in your Dev Environment - Preferences / Settings / User Settings and add the json.schemas property.
-
-```
-{
-  "json.schemas": [
-    {
-      "fileMatch": [
-        "cypress.json"
-      ],
-      "url": "https://on.cypress.io/cypress.schema.json"
-    }
-  ]
-}
-```
-
-+++
-
 Create a new folder
 
 - `cd /tmp`
