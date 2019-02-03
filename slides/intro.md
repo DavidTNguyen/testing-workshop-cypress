@@ -87,9 +87,16 @@ Look at XHR when using the app
 
 +++
 
-Look at `redux-todomvc/index.js`
+Look at `react-todomvc/index.js`
 
-![DOM](redux-todomvc/img/index.png)
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import TodoApp from './components/TodoApp'
+import './styles.css'
+
+ReactDOM.render(<TodoApp />, document.getElementById('app'))
+```
 
 +++
 
