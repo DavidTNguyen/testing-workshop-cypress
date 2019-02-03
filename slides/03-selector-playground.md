@@ -15,14 +15,16 @@ It can suggest a weird selector
 
 ##Default Selector Priority:
 
-👉 data-cy
-👉 data-test
-👉 data-testid
-👉 id
-👉 class
-👉 tag
-👉 attributes
-👉 nth-child
+_fully customizable_
+
+1. data-cy
+2. data-test
+3. data-testid
+4. id
+5. class
+6. tag
+7. attributes
+8. nth-child
 
 +++
 ## Questions
