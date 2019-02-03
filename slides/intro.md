@@ -100,20 +100,14 @@ ReactDOM.render(<TodoApp />, document.getElementById('app'))
 
 +++
 
-Look at `redux-todomvc/app.js`
-
-![Application](redux-todomvc/img/appjs.png)
-
-+++
-
 ## Questions
 
 - what happens when you add a new Todo item?
-- how does it get to the redux store?
-- where does the redux store save it?
+- how does it get to the database?
 - what happens on start up?
 
 Note:
-The students should open **React & Redux** DevTools and look at **ACTIONS** that **DISPATCH** between the application and the store. Also the students should find the new items being saved in the store.
+
+The students should open ** React ** DevTools and look at **Component Structure** of the application and the network traffic. Also the students should find the new items being saved in the database.
 
 +++
