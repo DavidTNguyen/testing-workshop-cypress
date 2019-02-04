@@ -10,7 +10,7 @@ Create a new folder
 
 +++
 
-```
+```sh
 npx cypress open
 $(npm bin)/cypress open
 ./node_modules/.bin/cypress open
@@ -51,7 +51,7 @@ Create a new file
 
 Type into the `spec.js`
 
-```javascript
+```js
 it('loads', () => {
   cy.visit('localhost:3000')
 })
@@ -73,7 +73,7 @@ it('loads', () => {
 
 +++
 
-```javascript
+```js
 /// <reference types="cypress" />
 it('loads', () => {
   cy.visit('localhost:3000')
@@ -95,7 +95,7 @@ By having "reference" line we tell editors that support it (VSCode, WebStorm) to
 
 Using `ts-check`
 
-```javascript
+```js
 /// <reference types="cypress" />
 // @ts-check
 it('loads', () => {
@@ -152,5 +152,5 @@ goes right to the documentation for that command.
   - blogs
 - Cypress changelog and roadmap
 
-Note:
+_Note:_
 Students should know where to find information later on. Main resources is the api page [https://on.cypress.io/api](https://on.cypress.io/api)

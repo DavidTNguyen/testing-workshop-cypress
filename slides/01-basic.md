@@ -44,7 +44,7 @@ This is a good moment to show how Cypress stores DOM snapshots and shows them fo
 
 +++
 
-## How to?
+## How to
 
 - run just this spec `cypress/integration/01-basic/spec.js` in headless mode?
 
@@ -70,7 +70,7 @@ Hint: `npx cypress run --help`
 
 +++
 
-## What kind of tests?
+## What kind of tests
 
 - discussion: what would you test in the TodoMVC app?
 

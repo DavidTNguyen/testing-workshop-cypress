@@ -80,7 +80,7 @@ Unit tests vs end-to-end tests
 
 ### Unit tests
 
-```javascript
+```js
 import add from './add'
 test('add', () => {
   expect(add(2, 3)).toBe(5)
@@ -93,7 +93,7 @@ test('add', () => {
 
 ### End-to-end tests
 
-```javascript
+```js
 const addItem = text => {
   cy.get('.new-todo').type(`${text}{enter}`)
 }
