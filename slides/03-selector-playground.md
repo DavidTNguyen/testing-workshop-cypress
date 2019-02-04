@@ -13,7 +13,7 @@ It can suggest a weird selector
 
 +++
 
-##Default Selector Priority:
+## Default Selector Priority
 
 _fully customizable_
 

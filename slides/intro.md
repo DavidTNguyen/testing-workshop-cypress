@@ -92,7 +92,7 @@ Let us look at the application.
 
 +++
 
-It is a regular React TodoMVC application.
+It is a React TodoMVC application.
 
 ![TodoMVC](img/app.gif)
 
