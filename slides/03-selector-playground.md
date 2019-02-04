@@ -30,7 +30,7 @@ _fully customizable_
 
 ## Questions
 
-- read [selector-playground-api] (https://docs.cypress.io/api/cypress-api/selector-playground-api.html#Arguments)
+- read [selector-playground-api](https://docs.cypress.io/api/cypress-api/selector-playground-api.html#Arguments)
 - read [best-practices.html](https://docs.cypress.io/guides/references/best-practices.html#Selecting-Elements)
 - add test data ids to `todomvc/index.html` DOM markup
 - use new selectors to write `cypress/integration/spec.js`
