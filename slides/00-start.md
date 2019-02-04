@@ -152,5 +152,5 @@ goes right to the documentation for that command.
   - blogs
 - Cypress changelog and roadmap
 
-_Note:_
+Note:
 Students should know where to find information later on. Main resources is the api page [https://on.cypress.io/api](https://on.cypress.io/api)

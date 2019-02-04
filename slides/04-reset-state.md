@@ -45,7 +45,7 @@ $ http POST :3000/reset todos:=[]
 ```
 
 Note:
-I am using httpie to easily send the empty list to reset the database.
+I am using `httpie` to easily send the empty list to reset the database.
 
 +++
 
