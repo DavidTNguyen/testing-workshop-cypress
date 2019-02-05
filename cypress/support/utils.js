@@ -36,7 +36,7 @@ export const getTodoApp = () => cy.get('.todoapp')
 export const getTodoItems = () =>
   getTodoApp()
     .find('.todo-list')
-    .find('li')
+    .find('[data-cy="item"]')
 
 export const newId = () =>
   Math.random()
