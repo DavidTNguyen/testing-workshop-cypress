@@ -111,7 +111,7 @@ it('can mark items as completed', () => {
 })
 ```
 
-- **tip** check out `cy.pause` command
+- **tip** check out [`cy.pause`](https://docs.cypress.io/api/commands/pause.html#Syntax) command
 
 Note:
 Revisit the discussion about what kind of tests one should write. E2E tests can cover a lot of features in a single test, and that is a recommended practice. If a test fails, it is easy to debug it, and see how the application looks during each step.
