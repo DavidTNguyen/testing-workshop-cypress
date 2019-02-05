@@ -20,6 +20,18 @@ it.only('starts with zero items', () => {
 
 +++
 
+## what if `cy.get` take too long
+
+```js
+// we've modified the timeout which affects default + added assertions
+cy
+  .get('.todo-item', { timeout: 10000 })
+  .should('be.visible')
+  .and('contain', 'Home')
+```  
+
++++
+
 ```js
 it('adds two items', () => {
   // repeat twice
