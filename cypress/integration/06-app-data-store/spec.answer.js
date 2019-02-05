@@ -53,7 +53,7 @@ it('puts todos in the store', () => {
   addItem('else')
   cy
     .window()
-    .its('app.$store.state.todos')
+    .its('app.$store.state.todos') // https://docs.cypress.io/api/commands/its.html#Functions
     .should('deep.equal', [
       { title: 'something', completed: false, id: '1' },
       { title: 'else', completed: false, id: '2' }

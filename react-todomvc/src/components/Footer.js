@@ -12,6 +12,6 @@ export default props =>
       {' '}
       <li><Link to="/active">Active</Link></li>
       {' '}
-      <li><Link to="/completed">Completed</Link></li>
+      <li data-cy="item-completed"><Link to="/completed">Completed</Link></li>
     </ul>
   </footer>

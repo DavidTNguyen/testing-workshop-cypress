@@ -1,79 +1,44 @@
 {
   "todos": [
     {
-      "name": "todo A",
+      "name": "test api",
       "isComplete": false,
       "id": 1
     },
     {
-      "name": "todo B",
+      "name": "test api",
       "isComplete": false,
       "id": 2
     },
     {
-      "name": "todo C",
+      "name": "test api",
       "isComplete": false,
       "id": 3
     },
     {
-      "name": "todo D",
+      "name": "test api",
       "isComplete": false,
       "id": 4
     },
     {
-      "name": "E",
+      "name": "test api",
       "isComplete": false,
       "id": 5
     },
     {
-      "name": "first item",
+      "name": "test api",
       "isComplete": false,
       "id": 6
     },
     {
-      "name": "second item",
+      "name": "test api",
       "isComplete": false,
       "id": 7
     },
     {
-      "name": "first item",
+      "name": "test api",
       "isComplete": false,
       "id": 8
-    },
-    {
-      "name": "second item",
-      "isComplete": false,
-      "id": 9
-    },
-    {
-      "name": "first item",
-      "isComplete": false,
-      "id": 10
-    },
-    {
-      "name": "second item",
-      "isComplete": false,
-      "id": 11
-    },
-    {
-      "name": "first item",
-      "isComplete": false,
-      "id": 12
-    },
-    {
-      "name": "second item",
-      "isComplete": false,
-      "id": 13
-    },
-    {
-      "name": "first item",
-      "isComplete": false,
-      "id": 14
-    },
-    {
-      "name": "second item",
-      "isComplete": false,
-      "id": 15
     }
   ]
 }
