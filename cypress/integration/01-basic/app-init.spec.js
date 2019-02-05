@@ -7,11 +7,11 @@ describe('App initialization', () => {
   })
 
   it('Displays an error on failure', () => {
-    cy.server()
+    cy.server() // enable response stubbing
     cy.route({
-      url: '/api/todos',
-      method: 'GET',
-      status: 500,
+      method: 'GET', // Route all GET requests
+      url: '/api/todos', // that have a URL that matches '/api/todos'
+      status: 500, // Force a 500
       response: {}
     })
     cy.visit('/')
