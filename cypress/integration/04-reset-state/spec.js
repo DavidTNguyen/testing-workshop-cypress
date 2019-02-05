@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 beforeEach(() => {
-  // ❓ IS THIS THE CORRECT WAY ❓
+  // ❓ IS THIS THE CORRECT WAY TO RESET THE DATABASE ❓
   cy.clearLocalStorage()
 })
 beforeEach(() => {
