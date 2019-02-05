@@ -56,6 +56,7 @@ You will need:
 - Node v6+ to install dependencies
 
 ```text
+nvm use 8.14.0
 git clone <repo url>
 cd testing-workshop-cypress
 npm install
