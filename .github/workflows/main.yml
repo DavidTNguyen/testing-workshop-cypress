@@ -16,7 +16,7 @@ jobs:
     - name: Cypress E2E Tests
       uses: bartlett705/npm-cy@master
       with:
-        args: ci
+        args: run ci
     - name: Send Push Notification
       uses: techulus/push-github-action@master
       env:
