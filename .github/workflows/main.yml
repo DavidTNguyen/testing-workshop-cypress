@@ -12,15 +12,11 @@ jobs:
     - name: Clean Install
       uses: actions/npm@master
       with:
-        args: ci
+        args: install
     - name: Cypress E2E Tests
       uses: bartlett705/npm-cy@master
       with:
-        args: test
-    - name: Build Blog
-      uses: actions/npm@master
-      with:
-        args: run build
+        args: ci
     - name: Send Push Notification
       uses: techulus/push-github-action@master
       env:
