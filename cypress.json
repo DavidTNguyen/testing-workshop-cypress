@@ -1,6 +1,7 @@
 {
   "viewportWidth": 600,
   "viewportHeight": 800,
+  "video": false,
   "ignoreTestFiles": [
     "**/answer/*",
     "*answer.js",
