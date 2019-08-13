@@ -1,0 +1,28 @@
+name: Build, and running Cypress Integration Test on push
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@master
+    - name: Clean Install
+      uses: actions/npm@master
+      with:
+        args: ci
+    - name: Cypress E2E Tests
+      uses: bartlett705/npm-cy@master
+      with:
+        args: test
+    - name: Build Blog
+      uses: actions/npm@master
+      with:
+        args: run build
+    - name: Send Push Notification
+      uses: techulus/push-github-action@master
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
+        MESSAGE: updated by Github Actions pipeline!
