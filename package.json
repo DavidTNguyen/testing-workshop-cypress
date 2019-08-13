@@ -65,7 +65,8 @@
     "standard": "13.0.2",
     "start-server-and-test": "1.10.0",
     "tsify": "4.0.1",
-    "typescript": "3.5.3"
+    "typescript": "3.5.3",
+    "webpack": "4.39.2"
   },
   "engines": {
     "node": ">=6"
