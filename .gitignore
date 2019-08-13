@@ -5,3 +5,10 @@ cypress/videos
 cypress/screenshots
 .DS_Store
 .vscode
+cypress/results
+mochawesome-report/
+mochawesome.json
+cypress/logs
+dist
+.nyc_output
+coverage

@@ -4,24 +4,20 @@ Repo: [DavidTNguyen/testing-workshop-cypress](https://github.com/DavidTNguyen/te
 
 Slides: [https://gitpitch.com/DavidTNguyen/testing-workshop-cypress](https://gitpitch.com/DavidTNguyen/testing-workshop-cypress)
 
----?include=slides/intro.md
+---?include=slides/intro/PITCHME.md
 
----?include=slides/00-start.md
+---?include=slides/00-start/PITCHME.md
 
----?include=slides/01-basic.md
+---?include=slides/01-basic/PITCHME.md
 
----?include=slides/02-adding-items.md
+---
 
----?include=slides/03-selector-playground.md
+## Next
 
----?include=slides/04-reset-state.md
+Select the next section to work through from [Content](https://github.com/cypress-io/testing-workshop-cypress#content-)
 
----?include=slides/05-xhr.md
+- [Adding items](https://gitpitch.com/cypress-io/testing-workshop-cypress?p=slides/02-adding-items)
+- [Selector playground](https://gitpitch.com/cypress-io/testing-workshop-cypress?p=slides/03-selector-playground)
+- [Reset database](https://gitpitch.com/cypress-io/testing-workshop-cypress?p=slides/04-reset-state)
 
----?include=slides/06-app-data-store.md
-
----?include=slides/07-ci.md
-
----?include=slides/08-dashboard.md
-
----?include=slides/end.md
+or any other chapter

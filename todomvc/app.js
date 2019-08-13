@@ -4,7 +4,9 @@
   Vue.use(Vuex)
 
   function randomId () {
-    return Math.random().toString().substr(2, 10)
+    return Math.random()
+      .toString()
+      .substr(2, 10)
   }
 
   const store = new Vuex.Store({
@@ -15,7 +17,8 @@
     },
     getters: {
       newTodo: state => state.newTodo,
-      todos: state => state.todos
+      todos: state => state.todos,
+      loading: state => state.loading
     },
     mutations: {
       SET_LOADING (state, flag) {
@@ -43,6 +46,7 @@
     actions: {
       loadTodos ({ commit }) {
         commit('SET_LOADING', true)
+
         axios
           .get('/todos')
           .then(r => r.data)
@@ -122,6 +126,9 @@
     // computed properties
     // https://vuejs.org/guide/computed.html
     computed: {
+      loading () {
+        return this.$store.getters.loading
+      },
       newTodo () {
         return this.$store.getters.newTodo
       },

@@ -2,38 +2,216 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="863b0db3-0295-4856-ae53-179353d42c56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/react-todomvc/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-todomvc/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress.env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/11-retry-ability/answer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/11-retry-ability/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/12-custom-commands/__snapshots__/spec.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/12-custom-commands/answer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/12-custom-commands/custom-commands.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/12-custom-commands/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/13-app-actions/answer/using-po.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/13-app-actions/app-actions-full-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/13-app-actions/model.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/13-app-actions/po-full-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/13-app-actions/todo-page-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/13-app-actions/using-po-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/13-app-actions/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/14-fixtures/answer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/14-fixtures/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/16-preprocessors/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/16-preprocessors/ts-example.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/17-component-testing/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/17-component-testing/answer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/17-component-testing/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/17-component-testing/footer-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/18-backend/answer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/18-backend/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/19-code-coverage/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/00-start/img/cy-get-intellisense.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/00-start/img/should-intellisense.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/00-start/img/switch-browser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/00-start/img/vscode-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/03-selector-playground/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/03-selector-playground/img/best-practice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/03-selector-playground/img/chrome-copy-js-path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/03-selector-playground/img/selector-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/09-reporters/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/09-reporters/img/junit-output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/09-reporters/img/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/09-reporters/img/test-run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/10-configuration/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/10-configuration/img/configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/10-configuration/img/cypress.json-intellisense.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/10-configuration/img/env-from-cli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/10-configuration/img/env-from-env.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/10-configuration/img/env-merged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/img/assertion-intellisense.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/img/bdd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/img/chai-intellisense.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/img/one-label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/img/retry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/img/tdd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/img/two-labels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/11-retry-ability/img/waiting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/12-custom-commands/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/12-custom-commands/img/create-todo-intellisense.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/12-custom-commands/img/create-todo-log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/12-custom-commands/img/intellisense.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/12-custom-commands/img/jsdoc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/12-custom-commands/img/to-match-snapshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/13-app-actions/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/13-app-actions/img/toggle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/14-fixtures/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/14-fixtures/img/halloween.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/15-debugging/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/15-debugging/img/cy-log-from-fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/15-debugging/img/debug-cli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/15-debugging/img/debug-command.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/15-debugging/img/debug-driver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/15-debugging/img/failed-log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/15-debugging/img/random-problem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/16-preprocessors/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/16-preprocessors/img/default-options-deep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/16-preprocessors/img/default-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/16-preprocessors/img/ts-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/17-component-testing/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/17-component-testing/img/footer-component-test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/17-component-testing/img/hello-world.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/17-component-testing/img/on-click.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/cy-task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/iframes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/set-domain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/start-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/start-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/start-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/start-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/start-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/18-backend/img/two-iframes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/19-code-coverage/PITCHME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/19-code-coverage/img/coverage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/19-code-coverage/img/instrumented.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/19-code-coverage/img/reducer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/intro/img/DOM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/intro/img/app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/intro/img/docs-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/intro/img/network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/intro/img/todomvc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/intro/img/vue-devtools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/intro/img/vue-vuex-rest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/js/app.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/js/footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/js/todoItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/js/todoModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/vendor/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/vendor/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/vendor/js/JSXTransformer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/vendor/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/vendor/js/director.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-react/vendor/js/react-with-addons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/actions/index.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/App.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/Footer.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/Header.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/Link.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/MainSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/MainSection.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/TodoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/TodoItem.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/TodoList.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/TodoTextInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/components/TodoTextInput.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/constants/ActionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/constants/TodoFilters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/containers/FilterLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/containers/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/containers/MainSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/containers/VisibleTodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/reducers/todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/reducers/todos.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/reducers/visibilityFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todomvc-redux/src/selectors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PITCHME.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/02-adding-items/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/02-adding-items/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/05-xhr/answer.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/05-xhr/answer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/05-xhr/spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/05-xhr/spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/07-ci/ui-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/07-ci/ui-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/add-project.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/07-ci/img/add-project.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/app-in-window.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/06-app-data-store/img/app-in-window.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contexts.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/06-app-data-store/img/contexts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cypress-scaffold.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/00-start/img/cypress-scaffold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dashboard-runs.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/08-dashboard/img/dashboard-runs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dashboard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/default-suggestion.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/03-selector-playground/img/default-suggestion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/failing-test.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/04-reset-state/img/failing-test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/inspect-first-get-todos.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/04-reset-state/img/inspect-first-get-todos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new-todo.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/06-app-data-store/img/new-todo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/passing-test.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/04-reset-state/img/passing-test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-item-response.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/05-xhr/img/post-item-response.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-item.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/05-xhr/img/post-item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/response-body.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/05-xhr/img/response-body.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/selector-playground.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/03-selector-playground/img/selector-playground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/selectors.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/03-selector-playground/img/selectors.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/set-up-project-to-record.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/08-dashboard/img/set-up-project-to-record.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/test-passes-but-this-is-wrong.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/05-xhr/img/test-passes-but-this-is-wrong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/waiting.png" beforeDir="false" afterPath="$PROJECT_DIR$/slides/05-xhr/img/waiting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" afterPath="$PROJECT_DIR$/renovate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/00-start.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/00-start/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/00-start/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/01-basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/01-basic/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/02-adding-items.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/02-adding-items/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/03-selector-playground.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/03-selector-playground.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/04-reset-state.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/04-reset-state/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/05-xhr.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/05-xhr/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/06-app-data-store.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/06-app-data-store/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/07-ci.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/07-ci/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/08-dashboard.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/08-dashboard/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/end.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/end/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides/intro/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/intro/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todomvc/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/todomvc/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todomvc/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/todomvc/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todomvc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todomvc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todomvc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todomvc/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todomvc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todomvc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todomvc/vendor/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/todomvc/vendor/index.css" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-todomvc/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -60,32 +238,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="99" />
-    <option name="y" value="23" />
-    <option name="width" value="1433" />
-    <option name="height" value="839" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="testing-workshop-cypress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testing-workshop-cypress" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1PNQWtGgu1C6fV6rCBtHUecUZgT" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -120,126 +275,25 @@
       <workItem from="1553565596940" duration="3681000" />
       <workItem from="1561387203761" duration="1546000" />
       <workItem from="1561388864431" duration="6000" />
+      <workItem from="1565712109920" duration="112000" />
+      <workItem from="1565712236127" duration="10000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8764000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="99" y="23" width="1433" height="839" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16462976" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991013" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35678393" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Json Parser" order="3" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-todomvc/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-todomvc/src/components/TodoApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-todomvc/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-todomvc/src/components/TodoList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-todomvc/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todomvc/vendor/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3906">
-          <caret line="186" selection-start-line="186" selection-end-line="192" selection-end-column="1" />
-          <folding>
-            <element signature="e#3526#3793#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-todomvc/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="202" column="12" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="12" />
-          <folding>
-            <element signature="e#3250#3454#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-todomvc/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="6676" column="12" selection-start-line="6676" selection-start-column="12" selection-end-line="6676" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-todomvc/.nvmrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-todomvc/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
