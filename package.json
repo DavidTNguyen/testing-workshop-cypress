@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec 'cypress/integration/01-basic/*'",
-    "posttest": "cd react-todomvc && npm run reset:db",
+    "posttest": "cd react-todomvc && npm run reset",
     "reset": "cd react-todomvc; npm run reset",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
