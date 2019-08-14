@@ -14,7 +14,7 @@ jobs:
       uses: actions/npm@master
       with:
         args: install
-    - name: Cypress tests
+    - name: Cypress Tests
       uses: bartlett705/npm-cy@6fa505d818d66409f91d1f42e3b15d50a0cc4886
       with:
         args: run ci   

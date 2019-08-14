@@ -7,7 +7,7 @@
 		"build": "webpack",
 		"watch": "webpack --watch",
 		"serve": "json-server db.json --middlewares ./node_modules/json-server-reset",
-		"start": "concurrently \"npm run watch\" \"npm run serve\"",
+		"start": "./node_modules/.bin/json-server --static . db.json --middlewares ./node_modules/json-server-reset",
 		"reset": "node reset-db.js",
 		"reset:db": "npm run reset"
 	},
