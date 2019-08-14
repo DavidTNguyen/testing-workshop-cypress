@@ -4,14 +4,14 @@
   "description": "A 3-4 hour testing workshop complete with application, exercise tests and speaker slides",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --spec 'cypress/integration/07-ci/*'",
+    "test": "cypress run --spec 'cypress/integration/01-basic/*'",
     "posttest": "cd react-todomvc && npm run reset:db",
     "reset": "cd react-todomvc; npm run reset",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "start": "cd react-todomvc && npm start -- --quiet",
     "start:react": "http-server --silent -p 3000 -c-1 react-todomvc",
-    "ci": "start-test 3000",
+    "ci": "start-server-and-test start http://localhost:3000",
     "postinstall": "cd react-todomvc && npm install",
     "format": "prettier-standard 'cypress/**/*.js'",
     "lint": "standard 'cypress/**/*.js'"
