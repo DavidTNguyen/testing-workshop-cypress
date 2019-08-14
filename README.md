@@ -2,6 +2,8 @@
 
 > A full day testing workshop complete with application, exercise tests and speaker slides for [Cypress.io](https://www.cypress.io/)
 
+![GitHub Actions](img/github_actions.gif)
+
 ## Requirements ⚙️
 
 - Any computer: Mac, Windows, Linux
