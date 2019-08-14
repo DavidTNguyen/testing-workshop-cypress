@@ -9,7 +9,7 @@
     "reset": "cd react-todomvc; npm run reset",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "start": "http-server --silent -p 3000 -c-1 react-todomvc",
+    "start": "http-server --silent -p 3000 -c-1 todomvc-react",
     "start:react": "http-server --silent -p 3000 -c-1 react-todomvc",
     "ci": "start-test 3000",
     "postinstall": "cd react-todomvc && npm install",
