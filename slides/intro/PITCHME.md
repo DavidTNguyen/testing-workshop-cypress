@@ -1,4 +1,4 @@
-# David Nguyen,
+# David Nguyen
 
 - Lead Engineer, Target Corp
 - David.T.Nguyen@Target.com
@@ -10,8 +10,8 @@
 
 As long as ⏳ permits
 
-- example TodoMVC (in ReactJS)
-  * web app, data store, REST calls
+- example TodoMVC
+  - web app, data store, REST calls
 - basic page load test
 - selector playground
 - resetting state
@@ -55,32 +55,22 @@ Please: if you have experience with Cypress.io, help others during the workshop 
 
 +++
 
-## Requirements
+## How learning works
 
-Set up in your Dev Environment (VS Code) - _Preferences > Settings > User Settings_ and add the json.schemas property.
-
-```json
-{
-  "json.schemas": [
-    {
-      "fileMatch": [
-        "cypress.json"
-      ],
-      "url": "https://on.cypress.io/cypress.schema.json"
-    }
-  ]
-}
-```
+1. I explain and show
+2. We do together
+3. You do and I help
 
 +++
+
+## Requirements
 
 You will need:
 
 - `git` to clone this repo
-- Node v6+ to install dependencies
+- Node v8+ to install dependencies
 
 ```text
-nvm use 8.14.0
 git clone <repo url>
 cd testing-workshop-cypress
 npm install
@@ -90,7 +80,7 @@ npm install
 
 ## Repo organization
 
-- `/react-todomvc` is a web application we are going to test
+- `/todomvc` is a web application we are going to test
 - all tests are in `cypress/integration` folder
   - there are subfolders for exercises
     - `01-basic`
@@ -105,26 +95,27 @@ We are going to keep the app running, while switching from spec to spec for each
 
 +++
 
-## `react-todomvc`
+## `todomvc`
 
 Let us look at the application.
 
-- `cd react-todomvc`
-- `npm run start`
+- `cd todomvc`
+- `npm start`
 - `open localhost:3000`
 
 **important** keep application running through the entire workshop!
 
 +++
 
-<<<<<<< HEAD:slides/intro.md
-It is a React TodoMVC application.
-
-![TodoMVC](img/app.gif)
-=======
 It is a regular TodoMVC application.
 
 ![TodoMVC](/slides/intro/img/todomvc.png)
+
++++
+
+If you have Vue DevTools plugin
+
+![With Vue DevTools](/slides/intro/img/vue-devtools.png)
 
 +++
 
@@ -134,17 +125,7 @@ Look at XHR when using the app
 
 +++
 
-Look at `react-todomvc/index.js`
-
-<<<<<<< HEAD:slides/intro.md
-```js
-import React from 'react'
-import ReactDOM from 'react-dom'
-import TodoApp from './components/TodoApp'
-import './styles.css'
-
-ReactDOM.render(<TodoApp />, document.getElementById('app'))
-```
+Look at `todomvc/index.html` - main app DOM structure
 
 ![DOM](/slides/intro/img/DOM.png)
 
@@ -158,12 +139,17 @@ Look at `todomvc/app.js`
 
 ## Questions
 
+@ul
 - what happens when you add a new Todo item?
-- how does it get to the database?
+- how does it get to the server?
+- where does the server save it?
 - what happens on start up?
+@ulend
 
 Note:
+The students should open DevTools and look at XHR requests that go between the web application and the server. Also the students should find `todomvc/data.json` file with saved items.
 
-The students should open **React** DevTools and look at **Component Structure** of the application and the network traffic. Also the students should find the new items being saved in the database.
+---?image=/slides/intro/img/vue-vuex-rest.png&size=contain
 
-+++
+Note:
+This app has been coded and described in this blog post [https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/](https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/)

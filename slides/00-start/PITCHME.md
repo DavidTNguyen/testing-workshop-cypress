@@ -21,6 +21,8 @@ Create a new folder
 
 +++
 
+### How to open Cypress
+
 ```sh
 npx cypress open
 $(npm bin)/cypress open
@@ -185,10 +187,12 @@ Your best friend is [https://docs.cypress.io/](https://docs.cypress.io/)
 
 ## Find at docs.cypress.io
 
+@ul
 - Cypress main features and how it works docs
 - core concepts
 - command API
   - how many commands are there?
+@ulend
 
 +++
 
@@ -204,6 +208,7 @@ goes right to the documentation for that command.
 
 ## Find at docs.cypress.io
 
+@ul
 - examples
   - recipes
   - tutorial videos
@@ -211,6 +216,7 @@ goes right to the documentation for that command.
   - blogs
   - FAQ
 - Cypress changelog and roadmap
+@ulend
 
 Note:
 Students should know where to find information later on. Main resources is the api page [https://on.cypress.io/api](https://on.cypress.io/api)

@@ -7,7 +7,7 @@
 ## Requirements ⚙️
 
 - Any computer: Mac, Windows, Linux
-- [Node 6+](https://nodejs.org/)
+- [Node 8+](https://nodejs.org/)
 - [git](https://git-scm.com)
 
 In order to get the code and install dependencies
@@ -55,13 +55,21 @@ and you should see in the terminal
 
 Note for Windows users: if `npm start` throws an error, it is probably due to `cd todomvc; ...` first command in the `npm start `script. In this case change the working folder to "todomvc" and run `npm start` from there.
 
-From the second terminal window you should be able to open Cypress with
+From the second terminal window you should be able to open Cypress in the root of the project with
 
 ```bash
 $ npm run cy:open
 
 > testing-workshop-cypress@1.0.0 cy:open /git/testing-workshop-cypress
 > cypress open
+```
+
+### Tip
+
+You can use the installed [start-server-and-test](https://github.com/bahmutov/start-server-and-test) utility to start the app, open Cypress and then shutdown the app when you exit Cypress.
+
+```bash
+$ npm run dev
 ```
 
 ## Application 💾
